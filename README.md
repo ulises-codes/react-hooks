@@ -9,7 +9,6 @@ Hooks Included:
     import { useDevice } from '@ulises-codes/react-hooks'
     const { userAgent, device, isMobile } = useDevice()
 
-j
 **useWindowSize**
 
     import { useWindowSize } from '@ulises-codes/react-hooks'
