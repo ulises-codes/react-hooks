@@ -1,6 +1,13 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulises-codes/react-hooks.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -20,7 +27,7 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=17"
   },
   "husky": {
     "hooks": {
@@ -33,7 +40,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-hooks",
+  "name": "@ulises-codes/react-hooks",
   "author": "Ulises Himely",
   "module": "dist/react-hooks.esm.js",
   "size-limit": [
